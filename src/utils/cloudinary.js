@@ -32,6 +32,6 @@ const uploadOnCloudinary = async(localFilePath) => {
 export default uploadOnCloudinary;
 
     
-cloudinary.v2.uploader.upload("https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
+cloudinary.uploader.upload("https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
 { public_id: "Olympic_flag" },
 function(error, result) { console.log(result); });
