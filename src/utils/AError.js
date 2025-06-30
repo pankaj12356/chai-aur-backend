@@ -19,4 +19,5 @@ class APIError extends Error {
             Error.captureStackTrace(this,this.constructor)
         }
     }
-}export {APIError}
+}
+export {APIError}
