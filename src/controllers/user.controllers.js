@@ -381,7 +381,7 @@ if(!coverimageLocalPath){
 
 const coverImage = await uploadOnCloudinary(coverimageLocalPath)
 
-if(!avatar.url){
+if(!coverImage.url){
   throw new APIError(404,"Error while Updating on coverimgae")
 }
 
